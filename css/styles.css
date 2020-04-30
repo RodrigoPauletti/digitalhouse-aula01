@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Estilos gerais */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background: #FFF;
+  width: 100%;
+  padding: 22px 0;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px #555;
+}
+
+header #blog-name {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header #menu-list {
+  list-style: none;
+  margin: 30px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header #menu-list li {
+  margin: 0 20px;
+}
+
+header #menu-list li a {
+  color: #555;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+header #menu-list li a:hover {
+  color: #D06865;
+}
+
+header #menu-list li.active a {
+  color: #D06865;
+  font-weight: 700;
+}
+
+.page-container {
+  margin-top: 128px;
+}
+
+.container {
+  width: 1225px;
+  padding-top: 90px;
+  margin-bottom: 82px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+footer {
+  background: #F2F2F2;
+  text-align: center;
+}
+
+footer p {
+  padding: 10px 0;
+}
+
+
+/* Estilos Home */
+
+#home #home-banner {
+  width: 100%;
+  height: 415px;
+  object-fit: cover;
+}
+
+#home #home-about {
+  width: 100%;
+  max-width: 845px;
+  margin: 60px auto 0;
+}
+
+#home #home-about #home-about-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#home #home-about .home-about-description {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#home #home-musics {
+  display: flex;
+  margin: 117px 0 60px;
+}
+
+#home #home-musics .home-musics-item {
+  width: 50%;
+}
+
+#home #home-musics .home-musics-item img {
+  width: 100%;
+}
+
+#home #home-musics .home-musics-item ol {
+  margin: 0 0 0 40px;
+  padding: 45px 0 0;
+  list-style: none;
+}
+
+#home #home-musics .home-musics-item ol li {
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+#home #home-musics .home-musics-item ol li span {
+  color: #F9A827;
+  font-weight: 700;
+}
+
+
+/* Estilos About */
+
+#about {
+  padding-top: 115px;
+  text-align: center;
+}
+
+#about #testimonials .testimonial-item {
+  font-size: 31px;
+  font-weight: 700;
+  margin: 27px 0;
+}
+
+#about #testimonials .testimonial-item:first-child {
+  margin-top: 37px;
+}
+
+#about #testimonials .testimonial-item-author {
+  font-size: 21px;
+}
+
+#about #janedoe-photo {
+  margin-top: 21px;
+  width: 640px;
+  height: 470px;
+}
+
+
+/* Estilos Music */
+
+#music iframe {
+  margin: 27px 0;
+}
+
+#music iframe:first-child {
+  margin-top: 37px;
+}
+
+#music #music-list {
+  padding-left: 50px;
+}
+
+#music #music-list li {
+  font-size: 21px;
+}
+
+#music #music-infos p {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Estilos Contact */
+
+#contact {
+  margin-bottom: 73px;
+}
+
+.page-title {
+  margin-bottom: 10px;
+}
+
+#contact .contacts-list .contact-item {
+  margin-top: 27px;
+  padding-bottom: 20px;
+  border: 0px solid #CCC;
+  border-bottom-width: 1px;
+}
+
+#contact .contacts-list .contact-item:last-child {
+  border-bottom-width: 0;
+}
+
+#contact .contacts-list .contact-item .contact-office {
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+#contact .contacts-list .contact-item .contact-infos {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
