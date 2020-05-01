@@ -34,6 +34,51 @@
 
   <section id="contact" class="page-container container">
     <h1 class="page-title">Contact</h1>
+    <section class="duas-colunas">
+      <div>
+        <form name="contact" method="POST" data-netlify="true">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="marketing">How did you found Jane's Music?</label>
+            <div>
+              <input type="radio" name="marketing" id="instagram" value="Instagram">
+              <label for="instagram">Instagram</label>
+            </div>
+            <div>
+              <input type="radio" name="marketing" id="facebook" value="facebook">
+              <label for="facebook">Facebook</label>
+            </div>
+            <div>
+              <input type="radio" name="marketing" id="youtube" value="youtube">
+              <label for="youtube">Youtube</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Do you want to subscribe to our newsletter?</label>
+          </div>
+          <div class="form-group">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48696.05594725369!2d-120.56486157411139!3d40.28677819558661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809db7e2ccf00ec9%3A0x9143c5921b9c5a04!2sJanesville%2C%20CA%2096114%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1583349703851!5m2!1spt-BR!2sbr"
+          frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+    </section>
     <div class="contacts-list">
       <div class="contact-item">
         <p class="contact-office">MANAGEMENT | Karen Blanche</p>
